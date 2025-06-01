@@ -1,3 +1,11 @@
+# Solicite al cliente o clienta su nombre, apellido, edad y correo electrónico.
+
+# Compruebe que el nombre, el apellido y el correo no estén en blanco, y que la edad sea mayor a 18 años.
+
+# Muestre los datos por la terminal, en el orden que se ingresaron. Si alguno de los datos ingresados
+# no cumple los requisitos, sólo mostrar el texto “ERROR!”.
+
+
 error = '"Error!"'
 # La función strip() elimina los espacios iniciales y finales.
 nombre = input("Ingrese su nombre:").strip()
